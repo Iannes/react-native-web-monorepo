@@ -1,4 +1,8 @@
-# React Native Web Monorepo
+# :space_invader: React Native Web Monorepo
+
+Testing how to share code between React Native & React Native web.
+
+### :star: Features
 
 ### Notes
 
