@@ -1,0 +1,48 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.labelFormat": "short",
+  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "workbench.editor.showTabs": true,
+  "breadcrumbs.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "typescript.surveys.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "terminal.integrated.rendererType": "dom",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.gotoLocation.multiple": "goto"
+}
