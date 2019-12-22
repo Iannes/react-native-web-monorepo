@@ -4,6 +4,10 @@ Testing how to share code between React Native & React Native web.
 
 ### :star: Features
 
+- TypeScript
+- Yarn Workspaces
+- React Native Web
+
 ### Notes
 
 This can be tricky to set up so if there are any errors, there are a couple of things we can check to make sure everything is set up correctly.
@@ -13,5 +17,3 @@ This can be tricky to set up so if there are any errors, there are a couple of t
   - The `jsx` option should be set to `react`
   - The `module` option should be `commonjs`
   - The `declaration` option should be set to `true`
-
-### Configuring React Native For Yarn Workspaces
